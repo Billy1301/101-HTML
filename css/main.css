@@ -1,0 +1,89 @@
+/**** BASE SYTLES ****/
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    padding: 25px;    
+}
+
+/**** GRID ****/
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 50%;
+    float: left;    
+}
+
+.third-width {
+    width: 33.33%;
+    float: left;
+}
+
+/**** HEADER ****/
+
+header {    
+    text-transform: uppercase;
+}
+
+header span {
+    color: green;    
+}
+
+nav {
+    float: right;
+    
+}
+    
+nav ul li {
+    display: inline-block
+}
+    
+nav ul li a {
+    text-decoration: none;
+    color: green;
+    padding-left: 20px;
+}
+
+
+/*** MAIN ***/
+
+img {
+    border: 2px solid green;
+}
+
+main p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#menu p {  
+    font-size: 11px;
+    color: green;    
+}
+
+#locations {
+    text-align: right;
+}
+main h5 {
+    text-transform: uppercase;
+}
+
+/*** Footer ***/
+
+footer {
+    clear: both; 
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer span {
+    font-style: italic;
+    color: green;
+    text-transform: lowercase;
+}
